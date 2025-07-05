@@ -76,4 +76,13 @@ numero  = float(input("Digite um numero: "))
 if numero > 0:
     print("o numero é maior que 0", numero)
 else:
-    print("o numero é menor que zero", numero)    
+    print("o numero é menor que zero", numero)  
+"""
+Como requisito para um emprestimo. Para ser aprovado, voce precisa ter renda comparavada e nao ter restriçoes no nome.
+"""
+renda_aprovada = True
+nao_ter_restricoes = True
+
+emprestimo_aprovado = renda_aprovada and nao_ter_restricoes
+
+print("Vou pegar o dinheiro", emprestimo_aprovado)
